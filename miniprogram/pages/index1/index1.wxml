@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <image src="/images/scu.png"mode="widthFix"></image>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 绑定微信 </button>
+    <block wx:else>
+      <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  
+
+  <view> <button bindtap="button" type="primary"  >点击进入</button></view>
+</view>

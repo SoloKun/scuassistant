@@ -1,0 +1,64 @@
+/* pages/ex/ex.wxss */
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 5rpx;
+}
+
+.item {
+  width: 95%;
+  line-height: 100rpx;
+  color: rgb(226, 43, 43);
+  border: 2px solid #0095cd;
+  background: #ccc;
+}
+
+.title {
+  margin-bottom: 5rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  background-color: aqua;
+}
+
+.button {
+  width: 95%;
+  margin: 20rpx;
+}
+
+.container {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 10rpx;
+}
+
+.input {
+  text-align: left;
+}
+
+.btn1 {
+  width: 49%;
+  margin-top: 35px;
+  float: right;
+  margin-right: 5px;
+}
+
+.btn2 {
+  width: 49%;
+  margin-top: 35px;
+  float: left;
+}
+
+.page-section2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  color: red;
+}

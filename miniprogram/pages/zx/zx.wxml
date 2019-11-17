@@ -1,0 +1,113 @@
+<scroll-view class="newsType" scroll-x="true">
+  <view class="TypeView" hover-class="hoverClass" bindtap="typeButton" id="{{typeId1}}">公告信息 </view>
+  <view class="TypeView" hover-class="hoverClass" bindtap="typeButton" id="{{typeId2}}">| 锦水抒怀</view>
+  <view class="TypeView" hover-class="hoverClass" bindtap="typeButton" id="{{typeId3}}">| 综合新闻 </view>
+  <view class="TypeView" hover-class="hoverClass" bindtap="typeButton" id="{{typeId4}}">| 教学科研 </view>
+  <view class="TypeView" hover-class="hoverClass" bindtap="typeButton" id="{{typeId5}}">| 菁菁校园 </view>
+  <view class="TypeView" hover-class="hoverClass" bindtap="typeButton" id="{{typeId6}}">| 川大人物 </view>
+
+</scroll-view>
+<view>
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId0}}">{{text[0]}}</view>
+    <view class="titleDate">{{newsDate[0]}}</view>
+  </view>
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId1}}">{{text[1]}}</view>
+    <view class="titleDate">{{newsDate[1]}}</view>
+  </view>
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId2}}">{{text[2]}}</view>
+    <view class="titleDate">{{newsDate[2]}}</view>
+  </view>
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId3}}">{{text[3]}}</view>
+    <view class="titleDate">{{newsDate[3]}}</view>
+  </view>
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId4}}">{{text[4]}}</view>
+    <view class="titleDate">{{newsDate[4]}}</view>
+  </view>
+
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId5}}">{{text[5]}}</view>
+    <view class="titleDate">{{newsDate[5]}}</view>
+  </view>
+
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId6}}">{{text[6]}}</view>
+    <view class="titleDate">{{newsDate[6]}}</view>
+  </view>
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId7}}">{{text[7]}}</view>
+    <view class="titleDate">{{newsDate[7]}}</view>
+  </view>
+
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId8}}">{{text[8]}}</view>
+    <view class="titleDate">{{newsDate[8]}}</view>
+  </view>
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId9}}">{{text[9]}}</view>
+    <view class="titleDate">{{newsDate[9]}}</view>
+  </view>
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId10}}">{{text[10]}}</view>
+    <view class="titleDate">{{newsDate[10]}}</view>
+  </view>
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId11}}">{{text[11]}}</view>
+    <view class="titleDate">{{newsDate[11]}}</view>
+  </view>
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId12}}">{{text[12]}}</view>
+    <view class="titleDate">{{newsDate[12]}}</view>
+  </view>
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId13}}">{{text[13]}}</view>
+    <view class="titleDate">{{newsDate[13]}}</view>
+  </view>
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId14}}">{{text[14]}}</view>
+    <view class="titleDate">{{newsDate[14]}}</view>
+  </view>
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId15}}">{{text[15]}}</view>
+    <view class="titleDate">{{newsDate[15]}}</view>
+  </view>
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId16}}">{{typeComment}}{{text[16]}}</view>
+    <view class="titleDate">{{newsDate[16]}}</view>
+  </view>
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId17}}">{{typeComment}}{{text[17]}}</view>
+    <view class="titleDate">{{newsDate[17]}}</view>
+  </view>
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId18}}">{{typeComment}}{{text[18]}}</view>
+    <view class="titleDate">{{newsDate[18]}}</view>
+  </view>
+
+  <view class="{{titleClass}}">
+    <view bindtap="button" id="{{textId19}}">{{typeComment}}{{text[19]}}</view>
+    <view class="titleDate">{{newsDate[19]}}</view>
+  </view>
+</view>
+<view class="center">
+  <view class="feedBackClass">{{feedBack}}</view>
+</view>

@@ -1,0 +1,16 @@
+<view class="container4">课程：
+  <input placeholder="请输入课程名称 " value="{{cname}}" bindinput="inputcousenum">
+  </input>
+</view>
+
+<view style="background-color:#fbf9fe">
+  <button class="btn" bindtap="serchBtnClick">查询</button>
+  <button class="btn" bindtap="resetBtnClick">清除</button>
+</view>
+
+<view wx:for="{{name}}">
+  <view class="container"> 课程名：{{item}} 教师：{{teacher[index]}} 课程号：{{cousenum[index]}} 课序号：{{couseid[index]}} 校区：{{campus[index]}} </view>
+
+
+</view>
+<view>{{infoMess}}</view>

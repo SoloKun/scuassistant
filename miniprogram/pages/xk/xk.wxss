@@ -1,0 +1,46 @@
+
+.container1{
+  font-size: 1em;
+ color:#CD0000;
+ padding: 45rpx;
+  
+}
+
+.container2{
+  font-size: 1em;
+ color:#CD0000;
+ padding: 45rpx;
+   
+}
+
+.container3{
+  font-size: 1em;
+ color:#CD0000;
+ padding: 45rpx;
+}
+
+
+.container4{
+  font-size: 1em;
+ color:#030303;
+ padding: 30rpx;
+}
+
+
+.container5{
+  font-size: 1em;
+ color:#030303;
+ padding: 30rpx;
+}
+
+.btn{
+  width: 90%;
+  margin-top: 30rpx;
+  background-color: #FFCC00;
+  color: #FFF;
+}
+.container{
+font-size: 1em;
+ color:#8B0000; 
+ padding: 50rpx;
+}

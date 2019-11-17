@@ -1,0 +1,29 @@
+.container{
+font-size: 1em;
+ color:#8B0000; 
+ padding: 50rpx;
+}
+.btn1{
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 10rpx;
+  background-color: white;
+  color: #999999;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+
+.btnImg {
+  width: 25rpx;
+  height: 25rpx;
+}
+.group {
+  display: flex;
+  align-items: left;
+  justify-items: left;
+  justify-content: left;
+}

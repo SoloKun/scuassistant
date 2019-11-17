@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index1/index1",
+    "pages/home/home",
+    "pages/zx/zx",
+    "pages/xk/xk",
+    "pages/ck/ck",
+    "pages/newsdetail/newsdetail",
+    "pages/index/index",
+    "pages/car/car",
+    "pages/day/day",
+    "pages/txl/txl",
+    "pages/feedback/feedback",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/zx/zx",
+        "text": "校园资讯",
+        "iconPath": "images/news.png",
+        "selectedIconPath": "images/news@select.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home@select.png"
+      },
+      {
+        "pagePath": "pages/ck/ck",
+        "text": "寻课",
+        "selectedIconPath": "images/list.png",
+        "iconPath": "images/list@select.png"
+      }
+      
+     
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

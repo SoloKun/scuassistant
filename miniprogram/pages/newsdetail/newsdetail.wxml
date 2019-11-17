@@ -1,0 +1,9 @@
+<!--pages/newsdetail/newsdetail.wxml-->
+
+<view class="center">
+ <view class="title">{{title1}}</view>
+  <view class="view">
+    {{Text}}
+    
+  </view>
+</view>

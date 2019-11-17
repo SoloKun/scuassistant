@@ -1,0 +1,18 @@
+/* pages/newsdetail/newsdetail.wxss */
+.view{
+  
+  font-size:40rpx;
+  width:93%;
+  padding:4%;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title{
+  font-size:60rpx;
+  width:93%;
+  padding:4%;
+
+}

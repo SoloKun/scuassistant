@@ -1,0 +1,30 @@
+<view class=".content">
+  <form bindsubmit="formsubmit" bindreset="formreset">
+    <view class=".item">
+      
+      <view class=".title">建议：</view>
+      <textarea name="suggest" class=".input" placeholder="建议" bindblur="suggest">{{suggest}}</textarea>
+    </view>
+
+    <view class="container">
+      <view class=".button">
+        <button form-type="submit" type="primary" bindtap="onAdd">提交</button>
+        <button bindtap="reset1">重置</button>
+      </view>
+    </view>
+    <modal confirm-text="" cancel-text="" hidden="{{resetevent1}}">
+      <view class=".page-section2">确认重置？这意味着你的建议将被清空</view>
+      <button type="warn" class="btn1" form-type="reset" bindtap="reset">是</button>
+      <button type="primary" class="btn2" bindtap="cannel">否</button>
+    </modal>
+  </form>
+
+
+
+</view>
+<toast hidden="{{resetevent}}" duration="1000" bindchange="resetevents">
+  重置成功
+</toast>
+<loading hidden="{{submitevent}}">
+  提交中...
+</loading>

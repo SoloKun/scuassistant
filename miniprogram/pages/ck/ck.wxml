@@ -1,0 +1,18 @@
+<view class=".group">
+<button bindtap="serach" class='btn1' >
+    <image class='btnImg' src='../../images/course.png'></image>
+    <view>查课</view>
+ </button>
+<button bindtap="changesx" class='btn1' >
+    <image class='btnImg' src='../../images/sx.png'></image>
+    <view>属性：{{sx}}</view>
+ </button>
+<button bindtap="changeschool" class='btn1' >
+    <image class='btnImg' src='../../images/school.png'></image>
+    <view>校区：{{school}}</view>
+ </button>
+ 
+</view>
+<view wx:for="{{name}}">
+<view    class="container">   课程名：{{item}} 教师：{{teacher[index]}} 课程号：{{cousenum[index]}} 课序号：{{couseid[index]}} 校区：{{campus[index]}} </view>
+</view>

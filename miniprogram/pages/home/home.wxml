@@ -1,0 +1,30 @@
+<!--pages/home/home.wxml-->
+<view>
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1500" circular="true" previous-margin="85rpx" next-margin="48rpx">
+    <block wx:for="{{img}}">
+      <swiper-item>
+        <image src="{{item}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+ </view>
+ <view class=".group">
+  <button bindtap="car" class='btn1' >
+    <image class='btnImg' src='../../images/car.png'></image>
+    <view>校车</view>
+ </button>
+ <button bindtap="txl" class='btn1' >
+    <image class='btnImg' src='../../images/txl.png'></image>
+    <view>通讯录</view>
+ </button>
+ </view>
+ <view class=".group">
+ <button bindtap="day" class='btn1' >
+    <image class='btnImg' src='../../images/rl.png'></image>
+    <view>校历</view>
+ </button>
+ <button bindtap="feedback" class='btn1' >
+    <image class='btnImg' src='../../images/help.png'></image>
+    <view>反馈</view>
+ </button>
+ </view>
